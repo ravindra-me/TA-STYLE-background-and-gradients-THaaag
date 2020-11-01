@@ -47,6 +47,7 @@ table {
     background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/339805/pexels-photo-339805.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') 50% 50%  no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .container{
     width: 1350px;
@@ -63,15 +64,17 @@ table {
 .hero{
     display: flex;
     justify-content: space-between;
-    text-align: center;
     align-items: center;
     margin: 80px 0;
 }
 .hero div{
     width: 25%;
     height: 200px;
-    text-align: center;
-    border-radius: 8px;
+}
+.center{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
 }
 .box-1{
     background-color: red;
@@ -83,14 +86,14 @@ table {
     background: radial-gradient(red ,black);
 }
 .footer-div{
-    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) ,url('https://images.pexels.com/photos/2179666/pexels-photo-2179666.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') ;
+    background: linear-gradient( to right bottom,transparent,rgba(237,20,61,0.5)) ,url('https://images.pexels.com/photos/2179666/pexels-photo-2179666.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') 50% 50% no-repeat ;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 
     width: 90%;
-    height: 500px;
-    margin: 0 auto;
+    height: 600px;
+    margin: 50px auto;
     border-radius: 12px;
     
 }
